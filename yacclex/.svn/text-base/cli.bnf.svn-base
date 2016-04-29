@@ -1,0 +1,661 @@
+exit
+
+show om switchover state
+
+set ntp server ip <ip>
+
+set ntp disable
+
+show ntp configuration
+
+set system time "<y/m/d h:m:s>"
+
+show system
+
+show slot <slot_id> info
+
+show board status
+
+passwd
+
+show board info
+
+show user <user_id> passwd 
+
+show user admin passwd 
+
+show user maintenance passwd 
+
+show user debug passwd 
+
+set user admin login telnet enable
+
+set user admin login telnet disable
+
+set user admin login ftp enable
+
+set user admin login ftp disable
+
+set user <user_id> login console enable
+
+set user <user_id> login console disable
+
+set user <user_id> login telnet enable
+
+set user <user_id> login telnet disable
+
+set user <user_id> login rcp enable
+
+set user <user_id> login rcp disable
+
+set user <user_id> login snmp enable
+
+set user <user_id> login snmp disable
+
+set user <user_id> login ftp enable
+
+set user <user_id> login ftp disable
+
+set user <user_id> login syslog enable
+
+set user <user_id> login syslog disable
+
+set user maintenance login console enable
+
+set user maintenance login console disable
+
+set user maintenance login snmp enable
+
+set user maintenance login snmp disable
+
+set user maintenance login ftp enable
+
+set user maintenance login ftp disable
+
+set user maintenance login syslog enable
+
+set user maintenance login syslog disable
+
+set user debug login console enable
+
+set user debug login console disable
+
+set user debug login telnet enable
+
+set user debug login telnet disable
+
+set user debug login snmp enable
+
+set user debug login snmp disable
+
+set user debug login ftp enable
+
+set user debug login ftp disable
+
+set user debug login tftp enable
+
+set user debug login tftp disable
+
+set user debug login syslog enable
+
+set user debug login syslog disable
+
+reset user <user_id> passwd
+
+reset user admin passwd
+
+reset user maintenance passwd
+
+reset user debug passwd
+
+set device id <device_id>
+
+show rule
+
+show user access
+
+show configuration
+
+save configuration
+
+exitshell
+
+restart
+
+reboot slot <slot_id>
+
+reboot slot all
+
+restore configuration
+
+set client connect max <num>
+
+show client connect max
+
+
+
+set interface pos <interface_list> rx descramble enable
+
+set interface pos <interface_list> rx descramble disable
+
+set interface pos <interface_list> rx crc crc_32
+
+set interface pos <interface_list> rx crc crc_16
+
+set interface <interface_list> type pos
+
+set interface <interface_list> type xge_lan
+
+set interface <interface_list> type xge_wan
+
+set interface type pos
+
+set interface type xge_lan
+
+set interface type xge_wan
+
+set link status autodetect enable
+
+set link status autodetect disable
+
+show interface <interface_list> status
+
+show interface <interface_list> counter
+
+show interface <interface_list> info
+
+show module <module_list> fpga counter
+
+show module <module_list> ddr counter
+
+clear interface <interface_list> counter
+
+clear module <module_list> fpga counter
+
+clear module <module_list> ddr counter
+
+set interface <interface_list> fw flow threshold <threshold_kbps>
+
+show interface <interface_list> fw flow threshold
+
+show interface status
+
+show public resource allocation
+
+show user <user_id> resource allocation verbose
+
+add rule <class_entry> drop
+
+add static rule <class_entry> drop
+
+add rule <class_entry> fw outgroup <outgroup_id> 
+
+add static rule <class_entry> fw outgroup <outgroup_id>
+
+add rule <class_entry> fw outgroup <outgroup_id> ip_pool <pool_id>
+
+add static rule <class_entry> fw outgroup <outgroup_id> ip_pool <pool_id>
+
+add rule <class_entry> fw outgroup <outgroup_id> vlan_pool <pool_id>
+
+add static rule <class_entry> fw outgroup <outgroup_id> vlan_pool <pool_id>
+
+delete rule <class_entry>
+
+delete rule all
+
+check rule <class_entry>
+
+set float userdata rule apply
+
+set ip search mode inside
+
+set ip search mode outside
+
+set <ud_id> mode <ud_mode> offset <offset>
+
+alloc rule entrynum apply
+
+alloc rule entrynum default
+
+alloc public rule type <rule_type> entrynum <entry_num>
+
+alloc user <user_id> rule type <rule_type> entrynum <entry_num>
+
+show rule nomask configuration
+
+set rule nomask pattern <id> disable
+
+set rule nomask pattern <id> <five_tuple>
+
+init
+
+sync
+
+show counter <int>
+
+clear counter <int>
+
+
+set stream aging time udp <time_s> tcp <time_s>
+
+set user <user_id> enable
+
+set user maintenance enable
+
+set user debug enable
+
+set user <user_id> disable
+
+set user maintenance disable
+
+set user debug disable
+
+set public autobind enable
+
+set public autobind disable
+
+set user autobind enable
+
+set user autobind disable
+
+set fillhead enable
+
+set fillhead disable
+
+set fwhead enable
+
+set fwhead disable
+
+set fwhead outgroup <outgroup_id>
+
+set public autobind aging time <time_s>
+
+set user autobind aging time <time_s>
+
+set user autobind max num <value>
+
+set packet sample enable
+
+set packet sample disable
+
+set packet sample scale <scale> hash update time <time_s>
+
+set packet sample outgroup <outgroup_id>
+
+set netflow enable
+
+set netflow disable
+
+set netflow server mac <mac> ip <ip> port <port>
+
+set netflow sample scale <scale>
+
+set netflow sample outgroup <outgroup_id>
+
+set interface <interface_list> direction up
+
+set interface <interface_list> direction down
+
+set outgroup <outgroup_id> hashmode up s
+
+set outgroup <outgroup_id> hashmode up d
+
+set outgroup <outgroup_id> hashmode up sd
+
+set outgroup <outgroup_id> hashmode up sdsd
+
+set outgroup <outgroup_id> hashmode up sdsdp
+
+set outgroup <outgroup_id> hashmode down s
+
+set outgroup <outgroup_id> hashmode down d
+
+set outgroup <outgroup_id> hashmode down sd
+
+set outgroup <outgroup_id> hashmode down sdsd
+
+set outgroup <outgroup_id> hashmode down sdsdp
+
+add outgroup <outgroup_id> <interface_list>
+
+delete outgroup <outgroup_id> <interface_list>
+
+delete outgroup <outgroup_id> all
+
+add ip_pool <pool_id> <ip>
+
+delete ip_pool <pool_id> <ip>
+
+delete ip_pool <pool_id> all
+
+add vlan_pool <pool_id> <vlan>
+
+delete vlan_pool <pool_id> <vlan>
+
+delete vlan_pool <pool_id> all
+
+alloc public outport <interface_list>
+
+alloc user <user_id> outport <interface_list>
+
+clear public outport
+
+clear user <user_id> outport
+
+set user default drop
+
+set user default fw outgroup <outgroup_id> [<ip_pool>] [<vlan_pool>]
+
+set strip head enable
+
+set strip head disable
+
+lock <five_tuple_class_entry>
+
+unlock <five_tuple_class_entry>
+
+set stream default fw num <num>
+
+set stream enable
+
+set stream disable
+
+set lock outgroup <outgroup_id>
+
+show <five_tuple_class_entry> lock status
+
+set unknown packet drop
+
+set unknown packet fw outgroup <outgroup_id>
+
+show stream counter
+
+clear stream counter
+
+set failover enable
+
+set failover disable
+
+set failover status update time <time_s>
+
+show se build time
+
+
+set debug level <debug_level>
+
+
+wget <url>
+
+enable version om
+
+enable version <slot_id>
+
+disable version om
+
+disable version <slot_id>
+
+enable version om "<version_name>"
+
+enable version <slot_id> "<version_name>"
+
+disable version om "<version_name>"
+
+disable version <slot_id> "<version_name>"
+
+enable version <slot_id> '-' <slot_id> "<version_name>"
+
+disable version <slot_id> '-' <slot_id> "<version_name>"
+
+remove version "<version_name>"
+
+list version om
+
+list version <slot_id>
+
+list version "<version_name>"
+
+help system
+
+show log user admin priority emergency
+
+show log user admin priority alert
+
+show log user admin priority crit
+
+show log user admin priority error
+
+show log user admin priority warn
+
+show log user admin priority notice
+
+show log user admin priority info
+
+show log user admin priority debug
+
+show log user debug priority emergency
+
+show log user debug priority alert
+
+show log user debug priority crit
+
+show log user debug priority error
+
+show log user debug priority warn
+
+show log user debug priority notice
+
+show log user debug priority info
+
+show log user debug priority debug
+
+show log user maintenance priority emergency
+
+show log user maintenance priority alert
+
+show log user maintenance priority crit
+
+show log user maintenance priority error
+
+show log user maintenance priority warn
+
+show log user maintenance priority notice
+
+show log user maintenance priority info
+
+show log user maintenance priority debug
+
+show log user <user_id> priority emergency
+
+show log user <user_id> priority alert
+
+show log user <user_id> priority crit
+
+show log user <user_id> priority error
+
+show log user <user_id> priority warn
+
+show log user <user_id> priority notice
+
+show log user <user_id> priority info
+
+show log user <user_id> priority debug
+
+show log system priority emergency
+
+show log system priority alert
+
+show log system priority crit
+
+show log system priority error
+
+show log system priority warn
+
+show log system priority notice
+
+show log system priority info
+
+show log system priority debug
+
+show log priority emergency
+
+show log priority alert
+
+show log priority crit
+
+show log priority error
+
+show log priority warn
+
+show log priority notice
+
+show log priority info
+
+show log priority debug
+
+set trap log enable
+
+set trap log disable
+
+set log user admin enable
+
+set log user admin disable
+
+set log user debug enable
+
+set log user debug disable
+
+set log user maintenance enable
+
+set log user maintenance alert
+
+set log user <user_id> enable
+
+set log user <user_id> disable
+
+set log system enable
+
+set log system disable
+
+set log timeformat none
+
+set log timeformat rfc time
+
+set log timeformat rfc time and year
+
+set log timeformat rfc time and ms
+
+set log timeformat rfc time year and ms
+
+set log timeformat general year
+
+set log timeformat general year and ms
+
+set log mibinfo type public
+
+set log mibinfo type private
+
+set log user filesize <size_k>
+
+set log system filesize <size_k>
+
+export log system ftp <_ipaddr_> "<account_name>" "<passwd>" "[path]"
+
+export log user admin ftp <_ipaddr_> "<account_name>" "<passwd>" "[path]"
+
+export log user debug ftp <_ipaddr_> "<account_name>" "<passwd>" "[path]"
+
+export log user maintenance ftp <_ipaddr_> "<account_name>" "<passwd>" "[path]"
+
+export log user <user_id> ftp <_ipaddr_> "<account_name>" "<passwd>" "[path]"
+
+export log system syslog <ipaddr> [port_id]
+
+export log user admin syslog <ipaddr> [port_id]
+
+export log user debug syslog <ipaddr> [port_id]
+
+export log user maintenance syslog <ipaddr> [port_id]
+
+export log user <user_id> syslog <ipaddr> [port_id]
+
+show log configuration
+
+arp show
+
+arp add <ip> <mac>
+
+arp delete <ip>
+
+ifconfig <ip> netmask <mask>
+
+route show
+
+route add net <ip> netmask <ip> gw <ip> 
+
+route delete net <ip> netmask <ip> gw <ip> 
+
+route add host <ip> gw <ip> 
+
+route delete host <ip> gw <ip> 
+
+snmp start
+
+snmp restart
+
+snmp stop
+
+snmp restore configuration
+
+snmp status
+
+snmp show configuration
+
+snmp set sysname "<value>"
+
+snmp set syscontact "<value>"
+
+snmp set syslocation "<value>"
+
+snmp set trap version "<value>"
+
+snmp set username "<value>"
+
+snmp set auth type md5
+
+snmp set auth type sha
+
+snmp set auth password "<value>"
+
+snmp set priv type des
+
+snmp set priv type aes
+
+snmp set priv password "<value>"
+
+snmp set access noauth
+
+snmp set access auth
+
+snmp set access priv
+
+snmp add rocommunity "<value>"
+
+snmp delete rocommunity "<value>"
+
+snmp add rwcommunity "<value>"
+
+snmp delete rwcommunity "<value>"
+
+snmp set trap ip <ipaddr>
+
+show <class_entry> outgroup <outgroup_id> outport
+
+set interface <interface_list> shutdown
+
+set interface <interface_list> no_shut
+
+set interface <interface_list> single_fiber transmit enable
+
+set interface <interface_list> single_fiber transmit disable
+

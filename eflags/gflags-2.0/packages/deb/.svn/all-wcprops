@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb
+END
+libgflags0.install
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/libgflags0.install
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/compat
+END
+libgflags-dev.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/libgflags-dev.dirs
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/docs
+END
+libgflags0.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/libgflags0.dirs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/rules
+END
+libgflags-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/packages/deb/libgflags-dev.install
+END

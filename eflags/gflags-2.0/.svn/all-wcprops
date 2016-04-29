@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/demo/!svn/ver/786/trunk/tut/eflags/gflags-2.0
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/AUTHORS
+END
+README_windows.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/README_windows.txt
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/depcomp
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/ChangeLog
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/config.guess
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/ltmain.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/README
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/config.sub
+END
+gflags.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/gflags.sln
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/COPYING
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/missing
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/demo/!svn/ver/784/trunk/tut/eflags/gflags-2.0/install-sh
+END

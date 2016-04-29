@@ -1,0 +1,70 @@
+%{
+
+#define YYERROR_VERBOSE
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#include <termios.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <readline/readline.h>
+#include <readline/history.h>
+
+#include "my_parser.h"
+#include "my_lexer.h"
+#include "appdefs.h"
+#include "def.h"
+#include "ruledefs.h"
+#include "log.h"
+#include "hyphy20g_common.h"
+static int EN;
+extern char text_cmd[MAX_CLI_CMD_LEN];
+#define printPrompt()   do {                        \
+    if (load_config_end && !hy_is_interactive()) {  \
+        printf("\004%3d\n", EN);                    \
+    }                                              \
+    fflush(stdout);                                 \
+} while (0)
+
+#define printEnq(str)   do {                        \
+    if (hy_is_interactive())                       \
+        printf(str);                                \
+	else                                          \
+        printf("\005%s\n", str);                    \
+    fflush(stdout);                                 \
+} while (0)
+
+#define CHECK_SMP_VALID(slots, modules, ports) do {     \
+    if (slots == 0 || modules == 0 || ports == 0) {     \
+        printf("Invalid input.\n");                   \
+        EN = OW_RST_INVLD_PRM;                          \
+        YYERROR;                                        \
+    }                                                   \
+} while (0)
+
+static int EN = 0;
+static int load_config_end = 0;
+extern int g_load_file_flag;
+int g_compound_ud = 0;
+
+int end_of_line = 0;
+
+struct class_entry_t g_class_entry;
+struct Pool_B g_pool;
+struct LogShowFilter_B g_log_show_filter;
+
+int yyerror(const char *s)
+{
+    EN = OW_RST_INVLD_PRM;
+    fprintf(stderr, "%s\n", s);
+    return 0;
+}
+
+static void cli_reset_command(void);
+
+%}
+

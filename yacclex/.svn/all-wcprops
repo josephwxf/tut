@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/demo/!svn/ver/792/trunk/tut/yacclex
+END
+lookup.c.header
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/lookup.c.header
+END
+def.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/def.h
+END
+py_gen.mk
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/py_gen.mk
+END
+lookup.c.footer
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/lookup.c.footer
+END
+my_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/my_parser.h
+END
+cli.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/cli.c
+END
+parser.y.header
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/parser.y.header
+END
+regex.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/regex.c
+END
+ruledefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/ruledefs.h
+END
+parser.y.footer
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/parser.y.footer
+END
+parser_tools.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/demo/!svn/ver/792/trunk/tut/yacclex/parser_tools.py
+END
+readline.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/readline.c
+END
+bnf_parser.py.bak
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/bnf_parser.py.bak
+END
+sysdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/sysdefs.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/log.h
+END
+hyphy20g_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/hyphy20g_common.h
+END
+bnf_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/bnf_parser.py
+END
+appdefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/appdefs.h
+END
+lexer.l
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/lexer.l
+END
+parser.y.cog
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/demo/!svn/ver/791/trunk/tut/yacclex/parser.y.cog
+END
+my_lexer.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/my_lexer.h
+END
+cli.bnf
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/cli.bnf
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/demo/!svn/ver/789/trunk/tut/yacclex/Makefile
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/demo/!svn/ver/787/trunk/tut/eflags
+END
+tm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/demo/!svn/ver/784/trunk/tut/eflags/tm.cpp
+END
+proto.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/demo/!svn/ver/784/trunk/tut/eflags/proto.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/demo/!svn/ver/784/trunk/tut/eflags/main.cpp
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/demo/!svn/ver/787/trunk/tut/eflags/README.md
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/demo/!svn/ver/784/trunk/tut/eflags/Makefile
+END
